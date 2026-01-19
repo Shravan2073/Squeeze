@@ -1,6 +1,4 @@
 
-### Made this python flask application to compress DAICOM images with a compression ratio of 1.8 and more. The image quality is loss-less. Check it out !! 
-
 
 # Squeeze: Hybrid Medical Image Compression
 
@@ -21,4 +19,8 @@ By applying lossless techniques (Run-Length Encoding and Huffman Encoding) to im
 Ensure you have Python 3.10+ installed. Install the necessary dependencies via the `requirements.txt` file:
 ```bash
 pip install -r requirements.txt
+```
+Run applications 
+```bash
+uv run app.py
 ```
